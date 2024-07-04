@@ -1,3 +1,5 @@
+import 'package:flutter/material.dart';
+
 List<String> buttons = [
   'C',
   '%',
@@ -23,3 +25,18 @@ List<String> buttons = [
 
 String equation = '';
 String answer = '';
+
+List<Color> colorsAxis = [
+  Colors.white,
+  Colors.green,
+  Colors.blue,
+  Colors.orange,
+  Colors.red,
+  Colors.teal,
+  Colors.yellow,
+  Colors.indigo,
+  Colors.purple,
+  Colors.amber,
+  Colors.lime,
+  Colors.cyan,
+];

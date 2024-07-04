@@ -54,7 +54,7 @@ class _HomePageState extends State<HomePage> {
         body: Stack(
           children: [
             SizedBox(
-              height: MediaQuery.of(context).size.height * 0.35,
+              height: MediaQuery.of(context).size.height * 0.3,
               child: Container(
                 padding: const EdgeInsets.all(8.0),
                 child: Center(
@@ -63,7 +63,7 @@ class _HomePageState extends State<HomePage> {
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
                       SizedBox(
-                        height: 50,
+                        height: 100,
                         width: MediaQuery.of(context).size.width - 20,
                         child: SingleChildScrollView(
                           controller: _controller,
@@ -72,14 +72,14 @@ class _HomePageState extends State<HomePage> {
                           child: Text(
                             gd.equation,
                             style: TextStyle(
-                                fontSize: 46,
+                                fontSize: 56,
                                 color: Colors.grey.shade400,
                                 fontWeight: FontWeight.w600),
                           ),
                         ),
                       ),
                       const SizedBox(
-                        height: 50,
+                        height: 10,
                       ),
                       SizedBox(
                         height: 50,
@@ -106,7 +106,7 @@ class _HomePageState extends State<HomePage> {
             Align(
               alignment: Alignment.bottomCenter,
               child: Container(
-                height: MediaQuery.of(context).size.height * 0.66,
+                height: MediaQuery.of(context).size.height * 0.63,
                 decoration: const BoxDecoration(
                   borderRadius: BorderRadius.only(
                     topLeft: Radius.circular(12),

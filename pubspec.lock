@@ -131,6 +131,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.9.1"
+  graph_calculator:
+    dependency: "direct main"
+    description:
+      name: graph_calculator
+      sha256: "7c982096e09eda8e16e1afb0c4b9afa1e40326b93baa59342ec26043a7a1fe74"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.4"
   image:
     dependency: transitive
     description:

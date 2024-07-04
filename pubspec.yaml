@@ -38,6 +38,7 @@ dependencies:
   petitparser: ^6.0.2
   function_tree: ^0.9.1
   math_expressions: ^2.5.0
+  graph_calculator: ^0.0.4
 
 dev_dependencies:
   flutter_test:

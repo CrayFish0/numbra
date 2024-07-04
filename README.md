@@ -13,6 +13,8 @@ Numbra is a simple and intuitive calculator app built using Flutter. It provides
 
 ![Screenshots](assets/screenshot2.jpg)
 
+![Screenshots](assets/screenshot3.jpg)
+
 ## Getting Started
 
 ### Prerequisites
